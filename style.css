@@ -1,0 +1,22 @@
+table {
+        table-layout: fixed;
+        border-collapse: collapse;
+        width: 450px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    tr {
+        height: 30px;
+    }
+    td{
+        border: 1px solid #333;
+        height: 30px;
+        width: 30px;
+        padding: 0;
+        overflow: hidden;
+    }
+
+.menu {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
