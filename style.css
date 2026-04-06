@@ -18,6 +18,8 @@ table {
 .menu {
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    background-color: #333;
+    color: aliceblue;
 }
 .null {
     background-color: #333;
