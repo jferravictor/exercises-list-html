@@ -19,3 +19,13 @@ table {
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
+.null {
+    background-color: #333;
+}
+.titulo  {
+    background-color: bisque;
+}
+
+.bloco {
+    background-color: lightblue;
+}
