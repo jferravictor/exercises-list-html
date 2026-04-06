@@ -3,31 +3,35 @@ table {
         border-collapse: collapse;
         text-align: center;
         font-family: sans-serif;
-    }
-    tr {
+}
+
+tr {
         height: 30px;
-    }
-    td{
+}
+
+td {
         border: 1px solid #333;
         height: 30px;
         width: 30px;
         padding: 0;
         overflow: hidden;
-    }
+}
 
 .menu {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    background-color: #333;
-    color: aliceblue;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        background-color: #333;
+        color: aliceblue;
 }
+
 .null {
-    background-color: #333;
+        background-color: #333;
 }
+
 .titulo  {
-    background-color: bisque;
+        background-color: bisque;
 }
 
 .bloco {
-    background-color: lightblue;
+        background-color: lightblue;
 }
