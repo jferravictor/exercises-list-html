@@ -5,5 +5,11 @@ Repositorie:
 https://jferravictor.github.io/exercises-list-html/
 
 archives:
-tabela1.html
-tabela2.html
+tabela1.html;
+tabela2.html;
+tabela3.html;
+tabela4.html;
+tabela5.html;
+tabela6.html;
+tabela7.html;
+
