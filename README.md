@@ -11,5 +11,6 @@ tabela3.html;
 tabela4.html;
 tabela5.html;
 tabela6.html;
-tabela7.html;
+tabela7.html; and
+tabela8.html
 
