@@ -12,5 +12,9 @@ tabela4.html;
 tabela5.html;
 tabela6.html;
 tabela7.html; and
-tabela8.html
+tabela8.html for Tables.
+
+formulario_adesao.html; 
+formulario_cadastro.html; and 
+formulario_pedido.html for Forms.
 
