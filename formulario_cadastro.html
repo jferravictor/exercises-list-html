@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário Cadastro</title>
+</head>
+<body style="background-color: #fff; padding: 40px;">
+    <h1>Formulário</h1>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <table class="layout-table">
+                <tr><td width="80">Nome:</td><td><input type="text" style="width: 250px;"></td></tr>
+                <tr><td>Endereço:</td><td><input type="text" style="width: 300px;"></td></tr>
+                <tr><td>Cidade:</td><td><input type="text" style="width: 200px;"></td></tr>
+                <tr><td>Estado:</td><td>
+                    <select>
+                        <option>São Paulo</option>
+                        <option>Mato Grosso do Sul</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Minas Gerais</option>
+                        <option>Bahia</option>
+                    </select>
+                </td></tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <p>Natureza do Cargo</p>
+            <table class="layout-table">
+                <tr>
+                    <td><input type="radio" name="c" checked> Gerência</td>
+                    <td><input type="radio" name="c"> Financeiro</td>
+                    <td><input type="radio" name="c"> Recepção</td>
+                    <td><input type="radio" name="c"> Administrativo</td>
+                    <td><input type="radio" name="c"> Jurídico</td>
+                </tr>
+            </table>
+
+            <p>Área de interesse</p>
+            <table class="layout-table">
+                <tr>
+                    <td><input type="checkbox"> Computação</td>
+                    <td><input type="checkbox"> Biologia</td>
+                    <td><input type="checkbox"> Meio Ambiente</td>
+                    <td><input type="checkbox"> Engenharia</td>
+                    <td><input type="checkbox"> História</td>
+                </tr>
+            </table>
+
+            <p>Mini-currículo:</p>
+            <textarea style="width: 100%; height: 100px;"></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

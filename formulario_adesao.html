@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Adesão</title>
+</head>
+<body style="max-width: 700px; margin: auto;">
+    <h2>Formulário de Adesão</h2>
+    <p>Nós oferecemos uma opção de filiação sob medida para atender às suas necessidades específicas...</p>
+    <hr>
+
+    <form>
+        <table class="layout-table">
+            <tr>
+                <td width="120">Nome*</td>
+                <td><input type="text" placeholder="First"></td>
+                <td><input type="text" placeholder="Last"></td>
+            </tr>
+            <tr>
+                <td>E-mail*</td>
+                <td colspan="2"><input type="email" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td>Telefone</td>
+                <td colspan="2"><input type="text" placeholder="#### #### ######"></td>
+            </tr>
+            <tr>
+                <td>Endereço</td>
+                <td colspan="2"><input type="text" placeholder="Street Address"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="text" placeholder="City"></td>
+                <td><input type="text" placeholder="State"></td>
+            </tr>
+        </table>
+
+        
+        <table class="layout-table">
+            <tr>
+                <td><p><b>Planos de Adesão*</b></p></td>
+                <td><input type="radio" name="p"> Padrão (R$200/Ano)</td>
+                <td><input type="radio" name="p"> Prata (R$450/Ano)</td>
+                <td><input type="radio" name="p"> Ouro (R$600/Ano)</td>
+            </tr>
+        </table>
+
+        
+        <table class="layout-table" style="width: auto;">
+            <tr><td rowspan="7" style="vertical-align: top;"><p><b>Como você ficou sabendo de nós?</b></p></td></tr>
+            <tr><td><input type="checkbox"> Um amigo</td></tr>
+            <tr><td><input type="checkbox"> Facebook</td></tr>
+            <tr><td><input type="checkbox"> Twitter</td></tr>
+            <tr><td><input type="checkbox"> Jornais</td></tr>
+            <tr><td><input type="checkbox"> Paginas amarelas</td></tr>
+            <tr><td><input type="checkbox"> Other: </td></tr>
+        </table>
+
+        <table class="layout-table" style="width: auto;">
+            <p><b>Comentários</b></p>
+            <textarea style="width: 100%; height: 80px;"></textarea>
+        </table>
+        
+
+        <p><b>Termos de Serviço*</b></p>
+        <input type="checkbox"> Eu concordo com os termos de serviço.
+
+        <p><b>Assinatura digital</b></p>
+        <div class="signature-line"></div>
+
+        <button type="submit" class="btn-dark">Enviar Formulário de Adesão</button>
+    </form>
+</body>
+</html>

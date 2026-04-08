@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Pedido</title>
+</head>
+<body>
+    <div style="background:#eee; padding: 5px; border: 1px solid #ccc; margin-bottom: 5px; display: flex; justify-content: space-between;">
+        <p>Record ▼</p>
+        <p>View: <b>Review Orders</b> ▼</p>
+    </div>
+
+    <div class="btn-container">
+        <button>OK</button> <button>Delete</button> <button>Cancel</button>
+    </div>
+
+    <form>
+        <table class="layout-table">
+            <tr>
+                <td width="100"><b>Customer:</b></td>
+                <td><input type="text" value="Bon app'" size="15"> 🔍 📝</td>
+                <td width="100"><b>Address:</b></td>
+                <td><input type="text" value="12, rue des Bouchers" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td><b>Employee:</b></td>
+                <td><input type="text" value="Peacock" size="15"> 🔍 📝</td>
+                <td><b>City:</b></td>
+                <td><input type="text" value="Marseille" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td><b>Order Date:</b></td>
+                <td><input type="date" value="5/6/1998" size="10"> 📅</td>
+                <td><b>Region:</b></td>
+                <td><input type="text" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td><b>Required Date:</b></td>
+                <td><input type="date" value="6/3/1998" size="10"> 📅</td>
+                <td><b>Postal Code:</b></td>
+                <td><input type="date" value="13008" style="width: 100%;"></td>
+            </tr>
+        </table>
+
+        <div class="border-box">
+            <div style="border-bottom: 1px solid #ccc; padding-bottom: 5px;">
+                🔍 <input type="text" placeholder="cha" size="10"> 📝 New Order Details
+            </div>
+            <table class="grid-table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Unit Price</th>
+                        <th>Quantity</th>
+                        <th>Discount</th>
+                        <th>Extended Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color: blue;">Grandma's Boysenberry Spread</td>
+                        <td>$25.00</td>
+                        <td>20</td>
+                        <td>25.00 %</td>
+                        <td>$375.00</td>
+                    </tr>
+                    <tr>
+                        <td style="color: blue;">Tofu</td>
+                        <td>$23.25</td>
+                        <td>20</td>
+                        <td>25.00 %</td>
+                        <td>$348.75</td>
+                    </tr>
+                    <tr>
+                        <td style="color: blue;">Teatime Chocolate Biscuits</td>
+                        <td>$9.20</td>
+                        <td>10</td>
+                        <td>25.00 %</td>
+                        <td>$69.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <table style="width: 300px; float: right; text-align: right;">
+            <tr><td>Subtotal:</td><td>$792.75</td></tr>
+            <tr><td>Freight:</td><td>$38.28</td></tr>
+            <tr><td><b>Total:</b></td><td><b>$831.03</b></td></tr>
+        </table>
+    </form>
+</body>
+</html>
